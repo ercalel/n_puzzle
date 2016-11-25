@@ -1,16 +1,15 @@
 package n_puzzle;
 
+import java.text.ParseException;
+
 /**
  *
  * @author Elmer C. Ramos
  */
 public class N_puzzle {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws ParseException {
+        Tablero tablero = new Tablero();
+        tablero.setVisible(true);
     }
-    
 }
